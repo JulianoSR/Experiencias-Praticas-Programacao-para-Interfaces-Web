@@ -26,5 +26,3 @@ Transformar uma interface estática em uma aplicação dinâmica e interativa, a
   - CEP (formato: 00000-000)
 - ✅ Feedback visual para erros de preenchimento
 - ✅ Armazenamento dos dados no navegador
-
-## 📁 Estrutura de Arquivos
