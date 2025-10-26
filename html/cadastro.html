@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+     <link rel="stylesheet" href="index.css">
+    <table border="0" width="100%" height="100%">
+<thead>
+<tr>
+<th>
+    <h1><p class="centro">ÁREA DE CADASTRO</p></h1>
+</th>
+</tr>
+</thead>
+</head>
+<table border="0" width="100%" height="100%" style="background-color: #DCDCDC;">
+<thead>
+<tr>
+<th>
+<body<form >
+    <fieldset>
+        <legend><h3>Informações Pessoais</h3></legend>
+        <ul><h4>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        </h4></ul>
+        <ul><h4>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        </h4></ul>
+        <ul><h4>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" 
+               pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+        </h4></ul>
+        <ul><h4>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento">
+        </h4></ul>
+        <ul><h4>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" 
+               min="18" max="120">
+        </h4></ul>
+        <!-- CPF -->
+        <p><label for="text">CPF:</label>
+            <input type="text" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" 
+            placeholder="000.000.000-00" title="Formato: 000.000.000-00"></p>
+
+<!-- CEP -->
+        <p><label for="text">CEP:</label>
+            <input type="text" pattern="[0-9]{5}-[0-9]{3}" 
+            placeholder="00000-000" title="Formato: 00000-000"></p>
+    </fieldset>
+    
+    <button type="submit">Enviar</button>
+</form>>
+</th>
+</tr>
+</thead>
+</table>
+    <script src="javascript.js"></script>
+</body>
+</html>
